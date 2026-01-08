@@ -36,6 +36,21 @@
   display: inline-block;
 }
 
+.offers-cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .offers-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .card {
     width: 588px;
@@ -53,10 +68,4 @@
     margin-top: 24px;
     display: inline-block;
   }
-}
-
-.offers-cards {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
