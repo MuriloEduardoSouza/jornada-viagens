@@ -8,7 +8,6 @@
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
-  margin: 24px;
 }
 
 .card header {
@@ -40,20 +39,40 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  gap: 24px;
+}
+
+.card.japao {
+  background: url(../img/bg-card-japao.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.san-andreas {
+  background: url(../img/bg-card-sanandreas.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.paraiba {
+  background: url(../img/bg-card-paraiba.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.manaus {
+  background: url(../img/bg-card-manaus.jpg) no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
   .offers-cards {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .card {
-    width: 588px;
+    width: 420px;
     height: 308px;
   }
 
@@ -67,5 +86,18 @@
     font-size: 40px;
     margin-top: 24px;
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .offers-cards {
+    width: 1250px;
+    margin: 0 auto;
   }
 }
