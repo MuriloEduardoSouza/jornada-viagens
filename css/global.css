@@ -43,6 +43,11 @@ body {
   color: var(--text-primary-color);
 }
 
+/* section {
+  width: 312px;
+  margin: 0 auto 88px;
+} */
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--titles-weight);
@@ -65,7 +70,7 @@ body {
   font-weight: var(--titles-weight);
   font-size: 20px;
   background-color: var(--secondary-color);
-  border-radius: 16px;
+  border-radius: 8px;
   text-decoration: none;
   display: inline-block;
   line-height: 64px;
@@ -82,3 +87,9 @@ body {
     background-color: var(--primary-color);
   }
 }
+
+/* @media screen and (min-width: 1200px) {
+  .section {
+    width: 1200px;
+  }
+} */
