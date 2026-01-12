@@ -14,20 +14,6 @@
   margin-top: 40px;
 }
 
-.item h4 {
-  font-weight: var(--titles-weight);
-  font-size: 28px;
-  height: 34px;
-}
-
-.item p {
-  font-weight: var(--text-weight);
-  line-height: 32px;
-  color: var(--background-tertiary-color);
-  height: 224px;
-  font-size: 20px;
-}
-
 .item footer a.button {
   width: 100%;
 }
