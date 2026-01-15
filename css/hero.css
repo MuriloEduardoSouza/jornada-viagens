@@ -1,7 +1,7 @@
 .hero-img {
-  height: 400px;
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
+  height: 400px;
 }
 
 .hero h2 {
