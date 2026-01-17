@@ -60,12 +60,12 @@ section.hero h2 {
 }
 
 .section-title {
-  width: 280px;
+  width: 312px;
   margin: 0 auto 32px;
 }
 
 .section-title h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: var(--titles-weight);
   margin: 0;
   text-align: center;
