@@ -71,7 +71,8 @@ section.hero h2 {
   text-align: center;
 }
 
-.section-title hr {
+.section-title hr,
+.hero-content hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
