@@ -23,6 +23,8 @@
 
 .main-footer .footer-content img {
   margin-bottom: 16px;
+  width: 160px;
+  height: 40px;
 }
 
 .main-footer .footer-social {
