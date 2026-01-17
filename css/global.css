@@ -151,4 +151,8 @@ section.hero h2 {
     width: 1200px;
     text-align: center;
   }
+
+  .section-title {
+    margin: 0 auto 64px;
+  }
 }
