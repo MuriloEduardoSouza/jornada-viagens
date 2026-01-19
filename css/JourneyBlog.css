@@ -1,0 +1,71 @@
+.cities .content-cities {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cities .content-cities .arrival,
+.cities .content-cities .accommodation,
+.cities .content-cities .info-cities {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cities .content-cities .arrival .img-cities.one {
+  background: url(../img/img-blog-1.png);
+  background-size: cover;
+  height: 360px;
+}
+
+.cities .content-cities .accommodation .img-cities.two {
+  background: url(../img/img-blog-2.png);
+  background-size: cover;
+  height: 360px;
+}
+
+.cities .content-cities .subtitles-cities {
+  margin: 0;
+  width: 100%;
+  height: 34px;
+  font-size: 28px;
+}
+
+.cities .content-cities p {
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .cities .content-cities .arrival {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .text-arrival {
+    flex: 1;
+  }
+  .img-cities.one {
+    flex: 1;
+  }
+
+  .cities .content-cities .text-arrival p {
+    margin-top: 24px;
+  }
+
+  .cities .content-cities p {
+    line-height: 32px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cities .content-cities .arrival .img-cities.one {
+    background: url(../img/img-blog-desk-1.png);
+    background-size: cover;
+  }
+
+  .cities .content-cities .accommodation .img-cities.two {
+    background: url(../img/img-blog-desk-2.png);
+    background-size: cover;
+  }
+}
