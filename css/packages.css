@@ -1,28 +1,44 @@
-.background-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/bg-hero-mobile.jpg) no-repeat;
-  background-size: cover;
+.background-hero,
+.background-hero-blog {
   background-position: 65% center;
   width: 100%;
   height: 460px;
   margin-bottom: 88px;
 }
 
-.hero-packages {
+.background-hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/bg-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.background-hero-blog {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/bg-hero-mobile-blog.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero-packages,
+.hero-blog {
   text-align: left;
   padding: 65px 24px;
   margin: 0;
 }
 
-.hero-packages .hero-content {
+.hero-packages .hero-content,
+.hero-blog .hero-content {
   height: 330px;
 }
 
-.hero-packages hr {
+.hero-packages hr,
+.hero-blog hr {
   margin: 16px 0px 32px;
 }
 
-.hero-packages .hero-content h1 {
+.hero-packages .hero-content h1,
+.hero-blog .hero-content h1 {
   font-weight: var(--titles-weight);
   font-size: 48px;
   line-height: 60px;
@@ -30,7 +46,8 @@
   color: var(--text-secondary-color);
 }
 
-.hero-packages .hero-content p {
+.hero-packages .hero-content p,
+.hero-blog .hero-content p {
   font-weight: var(--text-weight);
   font-size: 20px;
   line-height: 32px;
@@ -38,35 +55,53 @@
 }
 
 @media screen and (min-width: 768px) {
-  .background-hero {
-    height: 520px;
+  .background-hero,
+  .background-hero-blog {
+    height: 620px;
+    background-position: 65% center;
   }
 
-  .hero-packages .hero-content h1 {
+  .hero-blog {
+    padding: 159px 94px 158px 95px;
+  }
+
+  .hero-blog .hero-content {
+    height: 303px;
+  }
+
+  .hero-packages .hero-content h1,
+  .hero-blog .hero-content h1 {
     height: 60px;
   }
 
-  .hero-packages .hero-content p {
+  .hero-packages .hero-content p,
+  .hero-blog .hero-content p {
     width: 580px;
     height: 192px;
+    font-size: 32px;
+    line-height: 150%;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .background-hero {
+  .background-hero,
+  .background-hero-blog {
     height: 620px;
   }
 
-  .hero-packages {
+  .hero-packages,
+  .hero-blog {
     margin: 0;
     padding-left: 120px;
   }
 
-  .hero-packages .hero-content {
+  .hero-packages .hero-content,
+  .hero-blog .hero-content {
     align-content: center;
   }
 
-  .hero-packages .hero-content p {
+  .hero-packages .hero-content p,
+  .hero-blog .hero-content p {
     line-height: 150%;
     font-size: 32px;
   }
