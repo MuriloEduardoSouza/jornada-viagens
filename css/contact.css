@@ -1,0 +1,53 @@
+.fillForm .section-title {
+  margin: 0 0 56px;
+}
+
+.fillForm .textForm p {
+  font-weight: var(--text-weight);
+  line-height: 28px;
+  height: auto;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.form .inputForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  margin-bottom: 64px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+.form .button {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .background-hero-contact {
+    height: 620px;
+  }
+
+  .hero-contact {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-contact .hero-content {
+    width: 579px;
+    height: 255px;
+    padding-top: 183px;
+  }
+
+  .hero-contact .hero-content h1 {
+    height: 59px;
+  }
+
+  .hero-contact .hero-content p {
+    font-size: 32px;
+    height: 144px;
+  }
+}
